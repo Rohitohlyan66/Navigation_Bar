@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Home"
+        android:icon="@drawable/home"
+        android:id="@+id/home"
+        android:enabled="true"
+        app:showAsAction="never"/>
+    <item
+        android:title="Serach"
+        android:icon="@drawable/search"
+        android:id="@+id/search"
+        android:enabled="true"
+        app:showAsAction="never"/>
+    <item
+        android:title="Add"
+        android:icon="@drawable/add"
+        android:id="@+id/add"
+        android:enabled="true"
+        app:showAsAction="never"/>
+    <item
+        android:title="Like"
+        android:icon="@drawable/like"
+        android:enabled="true"
+        android:id="@+id/like"
+        app:showAsAction="never"/>
+    <item
+        android:title="Profile"
+        android:icon="@drawable/profile"
+        android:id="@+id/profile"
+        android:enabled="true"
+        app:showAsAction="never"/>
+</menu>
